@@ -1,6 +1,6 @@
 {
-  "name": "alfy-flomo",
-  "version": "0.0.1",
+  "name": "alfred-flomo",
+  "version": "0.0.2",
   "description": "a simple Alfred Workflow for Flomo",
   "keywords": [
     "alfred4",
@@ -26,5 +26,13 @@
     "package.json",
     "package-lock.json",
     "README.md"
-  ]
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "homepage": "https://github.com/wilsonyiyi/alfred-flomo",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wilsonyiyi/alfred-flomo"
+  }
 }

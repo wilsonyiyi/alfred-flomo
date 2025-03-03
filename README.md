@@ -2,7 +2,7 @@
 
 This a Alfred workflow for Flomo
 
-![screenshot](./flo-snapshot.png)
+![screenshot](./flomo-screenshot.png)
 
 ## Required
 

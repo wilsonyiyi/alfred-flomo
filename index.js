@@ -9,7 +9,6 @@ if (!FLOMO_API_URL) {
 }
 
 submit(alfy.input);
-console.log('alfy.input::: ', alfy.input);
 
 async function submit(content) {
     const response = await alfy.fetch(FLOMO_API_URL, {
@@ -18,10 +17,5 @@ async function submit(content) {
             'Content-Type': 'application/json',
         },
         body: JSON.stringify({ content }),
-    });
-
-    console.log(`data`, response);
-    alfy.output({
-        title: `数据已提交`
     });
 }
