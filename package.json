@@ -1,0 +1,30 @@
+{
+  "name": "alfy-flomo",
+  "version": "0.0.1",
+  "description": "a simple Alfred Workflow for Flomo",
+  "keywords": [
+    "alfred4",
+    "alfred5",
+    "flomo",
+    "alfy"
+  ],
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "alfy-init",
+		"preuninstall": "alfy-cleanup"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "alfy": "^2.1.0"
+  },
+  "files": [
+    "index.js",
+    "info.plist",
+    "icon.png",
+    "package.json",
+    "package-lock.json",
+    "README.md"
+  ]
+}
